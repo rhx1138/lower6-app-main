@@ -1,5 +1,5 @@
 # lower6-app-main
-## An Android app
+## An Android / iOS App
 
 Lower6 is an iPhone and Android app that seeks to help users lose body weight and lower the risk of Type 2 diabetes while enjoying high quality food. This is the main portal for information regarding the app.
 
