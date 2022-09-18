@@ -18,7 +18,7 @@ include("connect.php");
     <script src="js/modernizr.js" type="text/javascript"></script>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="css/jquery-ui-1.10.3.custom.css" />
-    <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="assets/plugins/jquery-ui/jquery.ui.1.10.2.ie.css"/><![endif]-->
+    <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="/assets/plugins/jquery-ui/jquery.ui.1.10.2.ie.css"/><![endif]-->
    
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
     <link rel='stylesheet' type='text/css' href="css/open-sans.css">

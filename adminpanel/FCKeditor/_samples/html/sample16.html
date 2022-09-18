@@ -28,7 +28,7 @@
 	<meta name="robots" content="noindex, nofollow" />
 	<link href="../sample.css" rel="stylesheet" type="text/css" />
 	<script type="text/javascript" src="../../fckeditor.js"></script>
-	<script type="text/javascript" src="assets/swfobject.js"></script>
+	<script type="text/javascript" src="/assets/swfobject.js"></script>
 	<script type="text/javascript">
 function sendToFlash()
 {
@@ -39,7 +39,7 @@ function sendToFlash()
 
 function init()
 {
-	var so = new SWFObject("assets/sample16.swf", "fckFlash", "550", "400", "8", "#ffffff") ;
+	var so = new SWFObject("/assets/sample16.swf", "fckFlash", "550", "400", "8", "#ffffff") ;
 	so.addParam("wmode", "transparent");
 	so.write("fckFlashContainer") ;
 }
@@ -73,7 +73,7 @@ oFCKeditor.BasePath	= sBasePath ;
 
 // Instruct the editor to load our configurations from a custom file, leaving the
 // original configuration file untouched.
-oFCKeditor.Config['CustomConfigurationsPath'] = sBasePath + '_samples/html/assets/sample16.config.js' ;
+oFCKeditor.Config['CustomConfigurationsPath'] = sBasePath + '_samples/html//assets/sample16.config.js' ;
 oFCKeditor.Height = 400 ;
 oFCKeditor.Width = '100%' ;
 oFCKeditor.ToolbarSet = 'Flash' ;

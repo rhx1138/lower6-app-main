@@ -28,7 +28,7 @@
 // We are using "BasePath" just for this sample convenience. In normal
 // situations it would be just pointed to the file directly,
 // like "/css/myfile.css".
-FCKConfig.EditorAreaCSS = FCKConfig.BasePath + '../_samples/html/assets/sample14.styles.css' ;
+FCKConfig.EditorAreaCSS = FCKConfig.BasePath + '../_samples/html//assets/sample14.styles.css' ;
 
 /**
  * Core styles.

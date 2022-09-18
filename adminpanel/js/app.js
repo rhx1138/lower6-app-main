@@ -572,7 +572,7 @@ var App = function() {
         blockUI: function (el, centerY) {
             var el = jQuery(el); 
             el.block({
-                    message: '<img src="./assets/images/preload.GIF" align="">',
+                    message: '<img src=".//assets/images/preload.GIF" align="">',
                     centerY: centerY != undefined ? centerY : true,
                     css: {
                         top: '10%',

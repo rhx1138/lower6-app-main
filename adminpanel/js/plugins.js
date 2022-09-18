@@ -379,7 +379,7 @@ var Dashboard = function (){
             var time_str = time.toString('MMM dd, yyyy HH:MM');
             var tpl = '';
             tpl += '<li class="out">';
-            tpl += '<img class="avatar" alt="" src="assets/images/demo/avatar-1.jpg"/>';
+            tpl += '<img class="avatar" alt="" src="/assets/images/demo/avatar-1.jpg"/>';
             tpl += '<div class="message">';
             tpl += '<span class="arrow"></span>';
             tpl += '<a href="#" class="name">Prakasam Mathaiyan</a>&nbsp;';
